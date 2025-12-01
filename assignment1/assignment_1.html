@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style>
+              .page-wrapper {
+                    display: grid;
+                    min-height: 100dvh; /* 100% of the viewport height */
+                    grid-template-rows: auto 1fr auto; /* Header, Main, Footer */
+                }
+                table, th, td {
+                    border: 1px solid black; /* Sets a 1px solid black border for table, headers, and data cells */
+                }
+                th {
+                    text-align: center;
+                }
+                td {
+                    padding: 4px; /* Adds spacing within cells */
+                    text-align: left; /* Aligns text to the left within cells */
+                }
+        </style>
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <header>
+            </header>
+            <main>
+                <h1>Stock Profile</h1>
+                <img src="./standard_chartered.png" alt="Standard Chartered Logo">
+                <h3>About the Company</h3>
+                <p>Standard Chartered is a British <b>multinational</b> bank with operations in consumer, corporate and institutional banking, and treasury services.</p>
+                <p>Despite being headquartered in the <u>United Kingdom</u>, it does not conduct retail banking in the UK, and around <i>90% of its profits come from Asia, Africa, and the Middle East.</i></p>
+                <h3>Stock Information</h3>
+                <table>
+                    <tr>
+                        <th colspan="2">Stock Data</th>
+                    </tr>
+                    <tr>
+                        <td>Stock Symbol:</td>
+                        <td>STAN</td>
+                    </tr>
+                    <tr>
+                        <td>Current Price:</td>
+                        <td>$100.00</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Market</td>
+                        <td>Market Cap:</td>
+                        <td>$1,000,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>PE Ratio:</td>
+                        <td>20.00</td>
+                    </tr>
+                </table>
+      
+            <h3>Relevant Links</h3>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Standard_Chartered">Wikipedia</a></li>
+                <li><a href="https://www.facebook.com/Standardcharteredsg/">Standard Chartered Facebook (Singapore)</a></li> 
+            </ul>
+            </main>
+            <footer>
+                &copy; 2024 Standard Chartered. All rights reserved.
+            </footer>
+    </div>
+    </body>
+</html>
