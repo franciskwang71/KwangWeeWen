@@ -1,0 +1,47 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+a{
+    color: #0079c1;
+    text-decoration: none;
+}
+header, footer {
+    background-color: #93d0f4;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-width: 1px;
+    border-collapse: collapse;  
+    border-color: #ddd;
+}
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+/* Add in your own customisations */
+ul, li {
+    list-style-position: inside;
+}
+h2, p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
