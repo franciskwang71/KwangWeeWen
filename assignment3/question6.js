@@ -7,3 +7,22 @@ const disneyData = {
 };
 
 // Write your code below
+const open = Number(disneyData.open);
+const close = Number(disneyData.close);
+const volume = Number(disneyData.volume);
+
+if (close > open) {
+    if (volume > 100000) {
+    console.log("Strong Bullish."); 
+    } else { 
+        console.log("Bullish.");
+    }
+} else if (close < open) {
+    if (volume < 100000) {
+        console.log("Strong Bearish.");
+    } else {
+        console.log("Bearish.");
+    }
+} else {
+        console.log("Neutral.");
+} 
